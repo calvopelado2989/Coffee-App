@@ -1,4 +1,4 @@
-# ☕ Coffee App
+#  Coffee App
 
 A small **Java Swing GUI application** that simulates a coffee shop where you can order coffees with **3 different flavors**.
 
@@ -8,22 +8,22 @@ The user can enter their name, choose a coffee flavor, select the quantity, see 
 
 ---
 
-## ✨ Features
+##  Features
 
-- 🪟 **Graphical interface (Swing)** – no console menu.
-- 👤 Text field to enter the **customer name**.
-- ☕ ComboBox to choose the **coffee flavor**.
-- 🔢 **Quantity selector** using a `JSpinner`.
-- 💵 Display of **unit price** for the selected coffee.
-- 🧮 Button **“Calcular precio”** to compute the total.
-- ✅ Button **“Confirmar pedido”** to confirm the order.
-- 📝 A large area to show the **order summary / messages**.
+-  **Graphical interface (Swing)** – no console menu.
+-  Text field to enter the **customer name**.
+-  ComboBox to choose the **coffee flavor**.
+-  **Quantity selector** using a `JSpinner`.
+-  Display of **unit price** for the selected coffee.
+-  Button **“Calcular precio”** to compute the total.
+-  Button **“Confirmar pedido”** to confirm the order.
+-  A large area to show the **order summary / messages**.
 
 All labels and buttons are in **Spanish** (e.g. “¿Cómo te llamas?”, “Sabor de café”, “Cantidad”, “Precio unitario”).
 
 ---
 
-## 🧱 Project Structure
+##  Project Structure
 
 Current repository structure:
 
@@ -40,7 +40,7 @@ Current repository structure:
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Language:** Java (JDK 8+ recommended; works with JDK 17/21).
 - **GUI Toolkit:** Swing (`JFrame`, `JLabel`, `JTextField`, `JComboBox`, `JSpinner`, `JButton`, etc.).
@@ -49,14 +49,14 @@ Current repository structure:
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
-### 1️⃣ Clone the repository
+### 1 Clone the repository
 
     git clone https://github.com/calvopelado2989/Coffee-App.git
     cd Coffee-App
 
-### 2️⃣ Run with IntelliJ IDEA (recommended)
+### 2 Run with IntelliJ IDEA (recommended)
 
 1. Open **IntelliJ IDEA**.
 2. Choose **Open** and select the `Coffee-App` folder.
@@ -68,7 +68,7 @@ A window titled **“Coffee Shop”** should appear.
 
 ---
 
-### 3️⃣ Run from the terminal (optional)
+### 3️ Run from the terminal (optional)
 
 If you prefer to run it manually:
 
@@ -80,7 +80,7 @@ If you prefer to run it manually:
 
 ---
 
-## 🔍 How the App Works
+##  How the App Works
 
 1. The user enters their **name** in the text field.
 2. Selects a **coffee flavor** from the drop-down list.
@@ -97,7 +97,7 @@ This project is a good example to learn:
 
 ---
 
-## 🧠 Learning Goals
+##  Learning Goals
 
 - Understand how a **Swing `JFrame`** is created and displayed.
 - Use starter Swing components:
@@ -107,7 +107,7 @@ This project is a good example to learn:
 
 ---
 
-## 🧩 Future Improvements
+##  Future Improvements
 
 Some ideas to extend the project:
 
@@ -119,13 +119,5 @@ Some ideas to extend the project:
 - Extract a `Coffee` / `Order` class to model the data better.
 - Add unit tests to verify price calculations.
 
----
 
-## 📄 License
-
-This project is for **educational purposes**.  
-You are free to modify, improve and use the code in your own projects.
-
----
-
-Made with ☕, Java, and Swing.
+Made with, Java, and Swing.
